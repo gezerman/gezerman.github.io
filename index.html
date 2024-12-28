@@ -7,45 +7,109 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'JetBrains Mono', monospace;
             line-height: 1.6;
+            color: #9c9b9d;
+            background-color: #07090a;
+        }
+
+        .top-bar {
+            background-color: #1a1a1a;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .top-bar nav {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #9c9b9d;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        .content-wrapper {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            color: #9c9b9d;
-            background-color: #07090a
         }
+
         pre {
             background-color: #2d2d2d;
             padding: 16px;
             border-radius: 6px;
             overflow: auto;
         }
+
         code {
             font-family: 'JetBrains Mono', monospace;
         }
     </style>
 </head>
 <body>
-    <div id="content"></div>
+    <header class="top-bar">
+        <nav>
+            <div class="logo">MD/Page</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#blog">Blog</a>
+                <a href="#aboutme">About me</a>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="content-wrapper">
+        <div id="content"></div>
+    </div>
+
     <script>
-        const markdown = `# Welcome to My Page
+        // Function to fetch and render markdown content
+        async function loadMarkdown() {
+            try {
+                const response = await fetch('content.md');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const markdownContent = await response.text();
+                document.getElementById('content').innerHTML = marked.parse(markdownContent);
+            } catch (error) {
+                console.error('Error loading markdown:', error);
+                document.getElementById('content').innerHTML = '<p>Error loading content. Please try again later.</p>';
+            }
+        }
 
-This is a sample markdown page. You can edit this content to include your own markdown.
-
-## Features
-- Automatic markdown rendering
-- Responsive design
-- Code highlighting
-
-### Sample Code
-\`\`\`javascript
-console.log('Hello, World!');
-\`\`\`
-`;
-
-        document.getElementById('content').innerHTML = marked.parse(markdown);
+        // Load markdown content when page loads
+        loadMarkdown();
     </script>
 </body>
 </html>
