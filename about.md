@@ -5,13 +5,13 @@
 Ambitious Artificial Intelligence Engineer proficient in Python, SQL, and experienced with libraries such
 as PyTorch, TensorFlow, OpenCV, and SciKit Learn. Skilled in developing machine learning and deep
 learning models with a focus on data science and AI-driven solutions.
-Educationa
-Bachelor of Science in Artificial Intelligence (English) Bahçsşehir University
-Istanbul Graduation Date: July 2024
+
+Bachelor of Science in Artificial Intelligence (English) Bahçeşehir University
+Graduation Date: July 2024
 
 <br>
 
-# Experience
+## Experience
 [Turkish Freelance Writer Outlier AI](#about)
 Remote November 2024 – Now
 * Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
@@ -30,7 +30,7 @@ paper.
 
 <br>
 
-# Projects
+## Projects
 [Tissue Mask Generation with VGG 16][vgg]
 * Learned about popular methods in histopathology domain for patch based models and used
 VGG-16 U-Net with Imagenet weights.
@@ -55,7 +55,7 @@ accuracy: 86.9%, precision: 86.2%.
 
 <br>
 
-# Skills and Certifications
+## Skills and Certifications
 * Languages: Turkish(Native), English(Professional)
 * Programming Languages: Python, R, C++
 * Libraries: PyTorch, TensorFlow, OpenCV, SciKit Learn, Numpy, Pandas, Apache Airflow
