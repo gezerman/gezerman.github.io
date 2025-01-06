@@ -48,7 +48,7 @@ accuracy: 86.9%, precision: 86.2%.
 * Fine-tuned Llama 2 for the radiology domain using RAG.
 * Containerized and deployed the application on Hugging Face Spaces.
 
-Library Backend
+[Library Backend](#about)
 * Used OOP concepts and Mongodb for storing personnel info and customer info.
 * Wrote an ETL pipeline using Apache Airflow for keeping the system up to date.
 
