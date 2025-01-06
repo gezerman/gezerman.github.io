@@ -1,6 +1,6 @@
 # Welcome!
 
-Welcome to my personal website. This is the place where you can find more information about me and my personal projects. I have a lot in mind regarding this site so it's #wip
+Welcome to my personal website. This is the place where you can find more information about me and read my blog. I have a lot in mind regarding this site so it's #wip
 
 <br>
 
