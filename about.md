@@ -13,13 +13,13 @@ Istanbul Graduation Date: July 2024
 
 # Experience
 [Turkish Freelance Writer Outlier AI](#about)
-
-<br>
-
 Remote November 2024 – Now
 * Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
 * Assessed LLM-generated responses based on specific metrics (such as instruction following and
 conciseness) and revised model responses by rewriting them to meet quality standards.
+
+<br>
+
 [Intern Mitsubishi Electric](#about)
 Istanbul July 2023 – August 2023
 * Developed a demo using OpenCV and TCP for robot communication to solve mazes on printed
@@ -37,14 +37,14 @@ VGG-16 U-Net with Imagenet weights.
 * Achieved 96% pixel accuracy and 95% intersection over union.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
 
-Loan Repayment Prediction
+[Loan Repayment Prediction][loan]
 * Performed exploratory data analysis and preprocessing.
 * Simulated a data pipeline with Mlflow and did hyperparameter search, compared algorithms;
 Random Forest, Decision Tree, XGBoost and achieved best result of ROC AUC: 93.7%,
 accuracy: 86.9%, precision: 86.2%.
 * Deployed the model on test server using REST api integration of Mlflow.
 
-Chatbot for Radiology Students using Llama 2
+[Chatbot for Radiology Students using Llama 2][chatbot]
 * Fine-tuned Llama 2 for the radiology domain using RAG.
 * Containerized and deployed the application on Hugging Face Spaces.
 
@@ -55,7 +55,7 @@ Library Backend
 
 <br>
 
-Skills and Certifications
+# Skills and Certifications
 * Languages: Turkish(Native), English(Professional)
 * Programming Languages: Python, R, C++
 * Libraries: PyTorch, TensorFlow, OpenCV, SciKit Learn, Numpy, Pandas, Apache Airflow
@@ -68,5 +68,5 @@ camp) Machine Learning with Python, (IBM)
 
 [vgg]: https://github.com/tangezerman/U-net-Tissue-Mask-Generation
 [loan]: https://github.com/tangezerman/Loan-return-prediction
-[chatbot]:
+[chatbot]: https://github.com/tangezerman/capstone
 
