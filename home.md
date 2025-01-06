@@ -20,7 +20,6 @@ Welcome to my personal website. This is the place where you can find more inform
 
 <br>
 
-[Download my CV (placeholder)][cv]
 
 <center>
 
@@ -28,4 +27,3 @@ Welcome to my personal website. This is the place where you can find more inform
 [linkedin]: https://www.linkedin.com/in/tan-gezerman/
 [github]: https://github.com/tangezerman
 [site]: https://tangezerman.github.io/#home
-[cv]: 
