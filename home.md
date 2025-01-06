@@ -18,9 +18,14 @@ Welcome to my personal website. This is the place where you can find more inform
 
 [This website][site]
 
+<br>
+
+[Download my CV (placeholder)][cv]
+
 <center>
 
 
 [linkedin]: https://www.linkedin.com/in/tan-gezerman/
 [github]: https://github.com/tangezerman
 [site]: https://tangezerman.github.io/#home
+[cv]: 
