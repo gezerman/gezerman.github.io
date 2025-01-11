@@ -12,7 +12,7 @@ Graduation Date: July 2024
 <br>
 
 ## Experience
-[Turkish Freelance Writer Outlier AI](#about)
+[Turkish Freelance Prompt Writer](#about)
 Remote November 2024 – Now
 * Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
 * Assessed LLM-generated responses based on specific metrics (such as instruction following and
