@@ -81,6 +81,43 @@
         code {
             font-family: 'JetBrains Mono', monospace;
         }
+
+        .blog-list {
+            list-style: none;
+        }
+
+        .blog-list li {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color: #1a1a1a;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .blog-list li:hover {
+            background-color: #2d2d2d;
+        }
+
+        .blog-list a {
+            color: #9c9b9d;
+            text-decoration: none;
+            display: block;
+        }
+
+        .blog-list a:hover {
+            color: #fff;
+        }
+
+        .blog-date {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .blog-preview {
+            margin-top: 0.5rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
@@ -100,19 +137,121 @@
     </div>
 
     <script>
-        // Function to fetch and render markdown content
+        // Blog posts directory structure
+        const blogDirectories = ['120125'];  // Add new dates here as you create them
+
+        // Function to format date from YYMMDD to human-readable format
+        function formatDate(dateStr) {
+            const year = "20" + dateStr.slice(0, 2);
+            const month = dateStr.slice(2, 4);
+            const day = dateStr.slice(4, 6);
+            return new Date(year, month - 1, day).toLocaleDateString();
+        }
+
+        // Function to read markdown content
+        async function readMarkdownContent(path) {
+            try {
+                const timestamp = new Date().getTime();
+                const response = await fetch(`${path}?t=${timestamp}`, {
+                    cache: 'no-store',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Pragma': 'no-cache'
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return await response.text();
+            } catch (error) {
+                console.error('Error reading markdown:', error);
+                return null;
+            }
+        }
+
+        // Function to extract title from markdown content - gets first heading of any level
+        function extractTitle(content) {
+            const lines = content.split('\n');
+            const titleLine = lines.find(line => /^#{1,6}\s+\S+/.test(line));
+            if (!titleLine) return 'Untitled';
+            // Remove all #s and trim
+            return titleLine.replace(/^#+\s+/, '').trim();
+        }
+
+        // Function to extract preview from markdown content
+        function extractPreview(content) {
+            const lines = content.split('\n');
+            // Skip title and empty lines, get first paragraph
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (line && !line.startsWith('#')) {
+                    return line.slice(0, 150) + (line.length > 150 ? '...' : '');
+                }
+            }
+            return '';
+        }
+
+        // Function to render blog listing
+        async function renderBlogListing() {
+            const blogList = document.createElement('div');
+            blogList.innerHTML = '<h1>Blog Posts</h1><ul class="blog-list"></ul>';
+            document.getElementById('content').innerHTML = '';
+            document.getElementById('content').appendChild(blogList);
+
+            const blogListElement = blogList.querySelector('.blog-list');
+            
+            for (const date of blogDirectories.sort((a, b) => b - a)) {
+                const content = await readMarkdownContent(`blog/${date}/blg.md`);
+                if (content) {
+                    const title = extractTitle(content);
+                    const preview = extractPreview(content);
+                    const li = document.createElement('li');
+                    li.innerHTML = `
+                        <a href="#blog/${date}">
+                            <h2>${title}</h2>
+                            <div class="blog-date">${formatDate(date)}</div>
+                            <div class="blog-preview">${preview}</div>
+                        </a>
+                    `;
+                    blogListElement.appendChild(li);
+                }
+            }
+        }
+
+        // Function to render individual blog post
+        async function renderBlogPost(date) {
+            const content = await readMarkdownContent(`blog/${date}/blg.md`);
+            if (content) {
+                document.getElementById('content').innerHTML = marked.parse(content);
+            } else {
+                document.getElementById('content').innerHTML = '<p>Error loading blog post.</p>';
+            }
+        }
+
+        // Modified loadPage function
         async function loadPage(page) {
             // Update navigation active state
             document.querySelectorAll('.nav-links a').forEach(link => {
                 link.classList.remove('active');
             });
+
+            // Handle blog posts and listing
+            if (page.startsWith('blog/')) {
+                document.getElementById('nav-blog').classList.add('active');
+                const date = page.split('/')[1];
+                await renderBlogPost(date);
+                return;
+            }
+
             document.getElementById(`nav-${page}`).classList.add('active');
 
-            // Update URL without page reload
-            history.pushState({}, '', `#${page}`);
-
             try {
-                // Add cache-busting query parameter
+                if (page === 'blog') {
+                    await renderBlogListing();
+                    return;
+                }
+
                 const timestamp = new Date().getTime();
                 const response = await fetch(`${page}.md?t=${timestamp}`, {
                     cache: 'no-store',
