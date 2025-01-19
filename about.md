@@ -2,7 +2,7 @@
 
 <br>
 
-Ambitious Artificial Intelligence Engineer proficient in Python, SQL, and experienced with libraries such
+I'm an ambitious Artificial Intelligence Engineer proficient in Python, SQL, and experienced with libraries such
 as PyTorch, TensorFlow, OpenCV, and SciKit Learn. Skilled in developing machine learning and deep
 learning models with a focus on data science and AI-driven solutions.
 
@@ -36,6 +36,7 @@ paper.
 VGG-16 U-Net with Imagenet weights.
 * Achieved 96% pixel accuracy and 95% intersection over union.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
+* HF🤗 release soon.
 
 [Loan Repayment Prediction][loan]
 * Performed exploratory data analysis and preprocessing.
