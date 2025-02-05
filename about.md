@@ -10,6 +10,7 @@ Bachelor of Science in Artificial Intelligence (English) Bahçeşehir University
 Graduation Date: July 2024
 
 <br>
+<br>
 
 ## Experience
 [Turkish Freelance Prompt Writer](#about)
@@ -29,6 +30,7 @@ paper.
 
 
 <br>
+<br>
 
 ## Projects
 [Tissue Mask Generation with VGG 16][vgg]
@@ -39,6 +41,8 @@ VGG-16 U-Net with Imagenet weights.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
 * HF🤗 release soon.
 
+<br>
+
 [Loan Repayment Prediction][loan]
 * Performed exploratory data analysis and preprocessing.
 * Simulated a data pipeline with Mlflow and did hyperparameter search, compared algorithms;
@@ -46,15 +50,19 @@ Random Forest, Decision Tree, XGBoost and achieved best result of ROC AUC: 93.7%
 accuracy: 86.9%, precision: 86.2%.
 * Deployed the model on test server using REST api integration of Mlflow.
 
+<br>
+
 [Chatbot for Radiology Students using Llama 2][chatbot]
 * Fine-tuned Llama 2 for the radiology domain using RAG.
 * Containerized and deployed the application on Hugging Face Spaces.
+
+<br>
 
 [Library Backend](#about)
 * Used OOP concepts and Mongodb for storing personnel info and customer info.
 * Wrote an ETL pipeline using Apache Airflow for keeping the system up to date.
 
-
+<br>
 <br>
 
 ## Skills and Certifications
