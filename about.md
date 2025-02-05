@@ -35,6 +35,7 @@ paper.
 * Learned about popular methods in histopathology domain for patch based models and used
 VGG-16 U-Net with Imagenet weights.
 * Achieved 96% pixel accuracy and 95% intersection over union.
+* Utilized multiprocessing for up to 50% faster patch creation.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
 * HF🤗 release soon.
 
