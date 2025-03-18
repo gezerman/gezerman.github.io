@@ -6,21 +6,28 @@ I'm an ambitious Artificial Intelligence Engineer proficient in Python, SQL, and
 as PyTorch, TensorFlow, OpenCV, and SciKit Learn. Skilled in developing machine learning and deep
 learning models with a focus on data science and AI-driven solutions.
 
-Bachelor of Science in Artificial Intelligence (English) Bahçeşehir University
-Graduation Date: July 2024
+<br>
+
+My most recent academic achievement is a Bachelor of Science in Artificial Intelligence (English) from Bahçeşehir University (July 2024).
 
 <br>
 <br>
 
 ## Experience
-[Turkish Freelance Prompt Writer](#about) <span style="float: right;">Remote, November 2024 - Now</span>
+**[Blusense](https://www.bluesense.ai/) | Intern <span style="float: right;">Remote, March 2025 - Now</span>**
+* Working on medical imaging techinques with libraries such as dlib, OpenCV, mediapipe for a mobile app.
+
+
+<br>
+
+**[Turkish Freelance Prompt Writer](#about) <span style="float: right;">Remote, November 2024 - Now</span>**
 * Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
 * Assessed LLM-generated responses based on specific metrics (such as instruction following and
 conciseness) and revised model responses by rewriting them to meet quality standards.
 
 <br>
 
-[Intern Mitsubishi Electric](#about)<span style="float: right;">Istanbul, July 2023 – August 2023</span>
+**[Mitsubishi Electric](https://tr.mitsubishielectric.com/fa/products/rbt#) | Intern<span style="float: right;">Istanbul, July 2023 – August 2023</span>**
 * Developed a demo using OpenCV and TCP for robot communication to solve mazes on printed
 paper.
 * Gained hands-on experience applications involving industrial robots and computer vision.
