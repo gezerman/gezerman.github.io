@@ -13,16 +13,14 @@ Graduation Date: July 2024
 <br>
 
 ## Experience
-[Turkish Freelance Prompt Writer](#about)
-Remote November 2024 – Now
+[Turkish Freelance Prompt Writer](#about) <span style="float: right;">Remote, November 2024 - Now</span>
 * Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
 * Assessed LLM-generated responses based on specific metrics (such as instruction following and
 conciseness) and revised model responses by rewriting them to meet quality standards.
 
 <br>
 
-[Intern Mitsubishi Electric](#about)
-Istanbul July 2023 – August 2023
+[Intern Mitsubishi Electric](#about)<span style="float: right;">Istanbul, July 2023 – August 2023</span>
 * Developed a demo using OpenCV and TCP for robot communication to solve mazes on printed
 paper.
 * Gained hands-on experience applications involving industrial robots and computer vision.
