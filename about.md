@@ -14,8 +14,9 @@ My most recent academic achievement is a Bachelor of Science in Artificial Intel
 <br>
 
 ## Experience
-**[Blusense](https://www.bluesense.ai/) | Intern <span style="float: right;">Remote, March 2025 - Now</span>**
-* Working on medical imaging techinques with libraries such as dlib, OpenCV, mediapipe for a mobile app.
+**[Blusense](https://www.bluesense.ai/) | AI Engineer Intern <span style="float: right;">Remote, March 2025 - Now</span>**
+* Working on medical imaging techinques with libraries such as dlib, OpenCV, mediapipe for a mobile app using CNN based approaches.
+* Working on speech to text engines and emotion extraction for an AI avatar based on video input.
 
 
 <br>
