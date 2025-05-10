@@ -15,8 +15,8 @@ My most recent academic achievement is a Bachelor of Science in Artificial Intel
 
 ## Experience
 **[Blusense](https://www.bluesense.ai/) | AI Engineer Intern <span style="float: right;">Remote, March 2025 - Now</span>**
-* Trained Yolo 11 L for blackheads, dark spot, nodules, papules, pustules, whiteheads detectionfor the Smart Beauty app, achievingmAP50:  85.5%, precision:  84.9%, recall:  81.3%.
-* Using image metadata, engineered precise measurement system that calculates MRD1-2(Marginal Reflex Distance) and EAR (Eye Aspect Ratio) values withmillimeter accuracyfor clinicalassessment
+* Trained Yolo 11 L for blackheads, dark spot, nodules, papules, pustules, whiteheads detectionfor the Smart Beauty app, achieving mAP50:  85.5%, precision:  84.9%, recall:  81.3%.
+* Using image metadata, engineered precise measurement system that calculates MRD1-2(Marginal Reflex Distance) and EAR (Eye Aspect Ratio) values with millimeter accuracyfor clinical assessment.
 
 
 <br>
