@@ -45,7 +45,7 @@ VGG-16 U-Net with Imagenet weights.
 * Achieved 96% pixel accuracy and 95% intersection over union.
 * Utilized multiprocessing for up to 50% faster patch creation.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
-* HF🤗 release soon.
+* HF🤗 [release] on gradio.
 
 <br>
 
@@ -85,4 +85,4 @@ camp) Machine Learning with Python, (IBM)
 [vgg]: https://github.com/tangezerman/U-net-Tissue-Mask-Generation
 [loan]: https://github.com/tangezerman/Loan-return-prediction
 [chatbot]: https://github.com/tangezerman/capstone
-
+[release]: https://huggingface.co/spaces/tangez/U-net-Tissue-Mask-Generation
