@@ -85,4 +85,4 @@ camp) Machine Learning with Python, (IBM)
 [vgg]: https://github.com/tangezerman/U-net-Tissue-Mask-Generation
 [loan]: https://github.com/tangezerman/Loan-return-prediction
 [chatbot]: https://github.com/tangezerman/capstone
-[release]: https://huggingface.co/spaces/tangez/U-net-Tissue-Mask-Generation
+[release]: https://huggingface.co/spaces/tangezerman/U-net-Tissue-Mask-Generation
