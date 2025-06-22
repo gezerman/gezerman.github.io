@@ -50,6 +50,11 @@ VGG-16 U-Net with Imagenet weights.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
 
 <br>
+[Phone Processors Dataset][processors]
+* An extensive collection documenting 204 mobile processor variants across major manufacturers, including practical daily use score, standardized benchmark results (AnTuTu, Geekbench multi-core and single-core), core configuration details, peak turbo clock speeds, and GPU models.
+
+
+<br>
 
 [Loan Repayment Prediction][loan]
 * Performed exploratory data analysis and preprocessing.
@@ -89,3 +94,4 @@ camp) Machine Learning with Python, (IBM)
 [loan]: https://github.com/tangezerman/Loan-return-prediction
 [chatbot]: https://github.com/tangezerman/capstone
 [demo]: https://huggingface.co/spaces/tangezerman/U-net-Tissue-Mask-Generation
+[processors]: https://www.kaggle.com/datasets/tangezerman/mobile-processors-2025
