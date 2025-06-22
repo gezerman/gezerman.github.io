@@ -31,7 +31,7 @@ model responses by rewrites to meet quality standards.
 <br>
 
 **[Mitsubishi Electric](https://tr.mitsubishielectric.com/fa/products/rbt#) | Intern<span style="float: right;">Istanbul, July 2023 – August 2023</span>**
-* Developed a demo using OpenCV and TCP for robot communication to solve mazes on printed
+* Developed a demo using OpenCV and Melfa Basic for server-robot communication to solve mazes on printed
 paper.
 * Gained hands-on experience applications involving industrial robots and computer vision.
 * Contributed to company documentation.
@@ -44,9 +44,9 @@ paper.
 [Tissue Mask Generation with VGG 16][vgg]
 * Learned about popular methods in histopathology domain for patch based models and used
 VGG-16 U-Net with Imagenet weights.
-* Using gradio, uploaded a [demo] that showcases the model on huggingface🤗spaces
+* Using gradio, uploaded a [demo] that showcases the model on HuggingFace 🤗 spaces
 * Achieved 96% pixel accuracy and 95% intersection over union.
-* Utilized multiprocessing for up to 50% faster patch creation.
+* Utilized multiprocessing for up to 50% faster patch creation and uplodade the dataset on Hugging Face.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
 
 <br>
