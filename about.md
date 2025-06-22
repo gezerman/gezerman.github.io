@@ -9,7 +9,7 @@ imaging applications, and classical machine learning.
 
 <br>
 
-My most recent academic achievement is a Bachelor of Science in Artificial Intelligence (English) from Bahçeşehir University (July 2024).
+My most recent academic achievement is a Bachelor of Science in Artificial Intelligence Engineering (English) from Bahçeşehir University (July 2024).
 
 <br>
 <br>
