@@ -24,9 +24,9 @@ documentation.
 <br>
 
 **[Turkish Data Annotator](#about) <span style="float: right;">Remote, November 2024 - Now</span>**
-* Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
-* Assessed LLM-generated responses based on specific metrics (such as instruction following and
-conciseness) and revised model responses by rewriting them to meet quality standards.
+* Wrote LLM prompts (including undergrad level math problems) to enhance response quality
+for Turkish localization during RLHF and assessed model responses based on specific metrics, revising
+model responses by rewrites to meet quality standards.
 
 <br>
 
