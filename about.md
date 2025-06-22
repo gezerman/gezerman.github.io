@@ -2,9 +2,10 @@
 
 <br>
 
-I'm an ambitious Artificial Intelligence Engineer proficient in Python, SQL, and experienced with libraries such
-as PyTorch, TensorFlow, OpenCV, and SciKit Learn. Skilled in developing machine learning and deep
-learning models with a focus on data science and AI-driven solutions.
+AI Engineer with hands-on experience in computer vision, deep learning, and data science. Proven track
+record of developing production-ready solutions including YOLO-based object detection models, medical
+imaging applications, and classical machine learning.
+
 
 <br>
 
@@ -14,14 +15,15 @@ My most recent academic achievement is a Bachelor of Science in Artificial Intel
 <br>
 
 ## Experience
-**[Blusense](https://www.bluesense.ai/) | AI Engineer Intern <span style="float: right;">Remote, March 2025 - Now</span>**
+**[Blusense](https://www.bluesense.ai/) | AI Engineer Intern <span style="float: right;">Remote, March 2025 - June 2025</span>**
 * Trained Yolo 11 L for blackheads, dark spot, nodules, papules, pustules, whiteheads detectionfor the Smart Beauty app, achieving mAP50:  85.5%, precision:  84.9%, recall:  81.3%.
 * Using image metadata, engineered precise measurement system that calculates MRD1-2(Marginal Reflex Distance) and EAR (Eye Aspect Ratio) values with millimeter accuracyfor clinical assessment.
-
+* Designed and deployed a Flask-based REST API for droopy eyelid detection and integrated swagger
+documentation.
 
 <br>
 
-**[Turkish Freelance Prompt Writer](#about) <span style="float: right;">Remote, November 2024 - Now</span>**
+**[Turkish Data Annotator](#about) <span style="float: right;">Remote, November 2024 - Now</span>**
 * Wrote LLM prompts (including math problems) to enhance response quality for Turkish localization during RLHF.
 * Assessed LLM-generated responses based on specific metrics (such as instruction following and
 conciseness) and revised model responses by rewriting them to meet quality standards.
@@ -42,10 +44,10 @@ paper.
 [Tissue Mask Generation with VGG 16][vgg]
 * Learned about popular methods in histopathology domain for patch based models and used
 VGG-16 U-Net with Imagenet weights.
+* Using gradio, uploaded a [demo] that showcases the model on huggingface🤗spaces
 * Achieved 96% pixel accuracy and 95% intersection over union.
 * Utilized multiprocessing for up to 50% faster patch creation.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
-* HF🤗 [release] on gradio.
 
 <br>
 
@@ -59,7 +61,8 @@ accuracy: 86.9%, precision: 86.2%.
 <br>
 
 [Chatbot for Radiology Students using Llama 2][chatbot]
-* Fine-tuned Llama 2 for the radiology domain using RAG.
+* Trained quantized Llama 2 Lora for the radiology domain using PEFT
+* Used chromadb for implementing RAG and used streamlit for chat ui
 * Containerized and deployed the application on Hugging Face Spaces.
 
 <br>
@@ -74,9 +77,9 @@ accuracy: 86.9%, precision: 86.2%.
 ## Skills and Certifications
 * Languages: Turkish(Native), English(Professional)
 * Programming Languages: Python, R, C++
-* Libraries: PyTorch, TensorFlow, OpenCV, SciKit Learn, Numpy, Pandas, Apache Airflow
+* Libraries: PyTorch, TensorFlow, OpenCV, SciKit Learn, Numpy, Pandas, Apache Airflow, Langchain, Matplotlib
 * Skills: Exploratory Data Analysis, Transfer Learning, Machine Learning, SQL, Mongo DB, Prompt
-Engineering, ETL Pipelines, OOP
+Engineering, ETL Pipelines, OOP, Comfy UI, Automatic 1.1.1.1
 * Certificates: Data Analytics Professional (Google), Biomedical Image Analysis in Python, (Data-
 camp) Machine Learning with Python, (IBM)
 
@@ -85,4 +88,4 @@ camp) Machine Learning with Python, (IBM)
 [vgg]: https://github.com/tangezerman/U-net-Tissue-Mask-Generation
 [loan]: https://github.com/tangezerman/Loan-return-prediction
 [chatbot]: https://github.com/tangezerman/capstone
-[release]: https://huggingface.co/spaces/tangezerman/U-net-Tissue-Mask-Generation
+[demo]: https://huggingface.co/spaces/tangezerman/U-net-Tissue-Mask-Generation
