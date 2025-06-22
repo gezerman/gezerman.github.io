@@ -46,7 +46,7 @@ paper.
 VGG-16 U-Net with Imagenet weights.
 * Using gradio, uploaded a [demo] that showcases the model on HuggingFace 🤗 spaces
 * Achieved 96% pixel accuracy and 95% intersection over union.
-* Utilized multiprocessing for up to 50% faster patch creation and uplodade the dataset on Hugging Face.
+* Utilized multiprocessing for up to 50% faster patch creation and uplodaded the dataset on Hugging Face.
 * Labeled a part of the dataset containing more than 290 GBs of Images in total.
 
 <br>
