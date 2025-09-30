@@ -29,6 +29,6 @@ Welcome to my personal website. This is the place where you can find more inform
 
 
 [linkedin]: https://www.linkedin.com/in/tan-gezerman/
-[github]: https://github.com/tangezerman
+[github]: https://github.com/gezerman
 [site]: https://tangezerman.github.io/#home
 [hf]: https://huggingface.co/tangezerman
