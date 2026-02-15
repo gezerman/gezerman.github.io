@@ -32,3 +32,4 @@ Welcome to my personal website. This is the place where you can find more inform
 [github]: https://github.com/gezerman
 [site]: https://tangezerman.github.io/#home
 [hf]: https://huggingface.co/tangezerman
+[aur]: https://aur.archlinux.org/packages?SeB=m&K=gezerman
