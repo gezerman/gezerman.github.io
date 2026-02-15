@@ -15,6 +15,11 @@ My most recent academic achievement is a Bachelor of Science in Artificial Intel
 <br>
 
 ## Experience
+**[PwC](https://www.pwc.com.tr/) | Intern<span style="float: right;">Istanbul, December 2025 – Now</span>**
+* Developing agentic workflows using MS Copilot, N8N
+* Introduced and trained team members on n8n workflows, including design, execution, and debugging.
+
+
 **[Blusense](https://www.bluesense.ai/) | AI Engineer Intern <span style="float: right;">Remote, March 2025 - June 2025</span>**
 * Trained Yolo 11 L for blackheads, dark spot, nodules, papules, pustules, whiteheads detectionfor the Smart Beauty app, achieving mAP50:  85.5%, precision:  84.9%, recall:  81.3%.
 * Using image metadata, engineered precise measurement system that calculates MRD1-2(Marginal Reflex Distance) and EAR (Eye Aspect Ratio) values with millimeter accuracyfor clinical assessment.
@@ -35,15 +40,6 @@ model responses by rewrites to meet quality standards.
 paper.
 * Gained hands-on experience applications involving industrial robots and computer vision.
 * Contributed to company documentation.
-
-<br>
-
-**[PwC](https://www.pwc.com.tr/) | Intern<span style="float: right;">Istanbul, December 2025 – Now</span>**
-* Developing agentic workflows using MS Copilot, N8N
-* Introduced and trained team members on n8n workflows, including design, execution, and debugging.
-
-
-
 
 <br>
 <br>
