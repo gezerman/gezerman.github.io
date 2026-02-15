@@ -36,6 +36,14 @@ paper.
 * Gained hands-on experience applications involving industrial robots and computer vision.
 * Contributed to company documentation.
 
+<br>
+
+**[PwC](https://www.pwc.com.tr/) | Intern<span style="float: right;">Istanbul, December 2025 – Now</span>**
+* Developing agentic workflows using MS Copilot, N8N
+* Introduced and trained team members on n8n workflows, including design, execution, and debugging.
+
+
+
 
 <br>
 <br>
