@@ -56,6 +56,14 @@ VGG-16 U-Net with Imagenet weights.
 
 <br>
 
+[Cachyos BGRT Plymouth Theme][bgrt]
+
+* Developed a plymouth theme (boot splash) featuring the CachyOS theme and motherboard manufacturer logo, which reads the manufacturer logo automatically.
+* Released as an aur package.
+* See discussion and demo at: https://www.reddit.com/r/cachyos/comments/1r3sct8/comment/o5ig1ui/?context=3
+
+<br>
+
 [Phone Processors Dataset][processors]
 * An extensive collection documenting 204 mobile processor variants across major manufacturers, including practical daily use score, standardized benchmark results (AnTuTu, Geekbench multi-core and single-core), core configuration details, peak turbo clock speeds, and GPU models.
 
@@ -100,3 +108,4 @@ camp) Machine Learning with Python, (IBM)
 [chatbot]: https://github.com/tangezerman/capstone
 [demo]: https://huggingface.co/spaces/tangezerman/U-net-Tissue-Mask-Generation
 [processors]: https://www.kaggle.com/datasets/tangezerman/mobile-processors-2025
+[bgrt]: https://github.com/gezerman/plymouth-theme-cachyos-bgrt
