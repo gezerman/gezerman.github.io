@@ -60,7 +60,7 @@ VGG-16 U-Net with Imagenet weights.
 
 * Developed a plymouth theme (boot splash) featuring the CachyOS theme and motherboard manufacturer logo, which reads the manufacturer logo automatically.
 * Released as an aur package.
-* See discussion and demo at: https://www.reddit.com/r/cachyos/comments/1r3sct8/comment/o5ig1ui/?context=3
+* See discussion and demo at: https://www.reddit.com/r/cachyos/comments/1r3sct8/ive_made_a_simple_plymouth_theme_featuring_the/
 
 <br>
 
